@@ -1,0 +1,538 @@
+[17-May-2022 03:11:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:286
+Stack trace:
+#0 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions()
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions()
+#2 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#3 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#4 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/plugin.php(474): WP_Hook->do_action()
+#6 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-admin/admin-ajax.php(187): do_action()
+#7 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 286
+[18-May-2022 03:16:38 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[18-May-2022 08:31:21 UTC] PHP Warning:  Undefined array key "editor_post_id" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 167
+[18-May-2022 08:31:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:286
+Stack trace:
+#0 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions()
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions()
+#2 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#3 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#4 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/plugin.php(474): WP_Hook->do_action()
+#6 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-admin/admin-ajax.php(187): do_action()
+#7 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 286
+[20-May-2022 07:24:31 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[20-May-2022 17:20:55 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[20-May-2022 17:21:38 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[20-May-2022 17:24:59 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[25-May-2022 01:53:34 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 01:53:34 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 01:53:34 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 01:53:34 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 01:53:45 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 01:53:45 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 01:53:46 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 01:53:46 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:03:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:03:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:03:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:03:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:03:07 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:03:07 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:03:08 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:03:08 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:07:39 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:07:39 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:07:40 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:07:40 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:07:41 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:07:41 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:07:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:07:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:08:18 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:08:18 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:08:19 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:08:19 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:20 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:20 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:21 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:22 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:22 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:22 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:22 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[25-May-2022 02:09:23 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[25-May-2022 02:09:23 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 02:14:25 UTC] PHP Warning:  Undefined array key "editor_post_id" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 167
+[02-Jun-2022 02:14:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:286
+Stack trace:
+#0 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions()
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions()
+#2 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#3 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#4 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-admin/admin-ajax.php(187): do_action()
+#7 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 286
+[02-Jun-2022 03:55:29 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 03:55:29 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 03:55:30 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 03:55:30 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 03:57:30 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 03:57:30 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 03:57:31 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 03:57:31 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 04:53:57 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[02-Jun-2022 05:03:25 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 05:03:25 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 05:03:26 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 05:03:26 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 05:04:41 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 05:04:41 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 05:04:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 05:04:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 06:02:13 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 06:02:13 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[02-Jun-2022 06:02:14 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[02-Jun-2022 06:02:14 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:03:06 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[04-Jun-2022 04:03:06 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:03:06 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[04-Jun-2022 04:03:06 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:03:19 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[04-Jun-2022 04:03:19 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:03:20 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[04-Jun-2022 04:03:20 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:06:41 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[04-Jun-2022 04:06:41 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:06:41 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[04-Jun-2022 04:06:41 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[04-Jun-2022 04:08:25 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 153
+[04-Jun-2022 04:09:56 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 153
+[09-Jun-2022 04:49:26 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[09-Jun-2022 04:49:26 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[09-Jun-2022 04:49:28 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[09-Jun-2022 04:49:28 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[09-Jun-2022 04:49:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[09-Jun-2022 04:49:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[09-Jun-2022 04:49:56 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[09-Jun-2022 04:49:56 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Jun-2022 03:46:36 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[10-Jun-2022 03:47:35 UTC] Galat basis data WordPress Commands out of sync; you can't run this command now untuk kueri SELECT umeta_id FROM wp_usermeta WHERE meta_key = 'wp_yoast_notifications' AND user_id = 1 yang dibuat oleh shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast_Notification_Center->update_storage, Yoast_Notification_Center->remove_storage, delete_user_option, delete_user_meta, delete_metadata
+[10-Jun-2022 03:48:16 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 153
+[10-Jun-2022 03:49:10 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Jun-2022 03:49:10 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Jun-2022 03:49:13 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Jun-2022 03:49:13 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Jun-2022 03:49:17 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Jun-2022 03:49:17 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Jun-2022 03:49:19 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Jun-2022 03:49:19 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Jun-2022 03:53:54 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 153
+[15-Jun-2022 02:03:17 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:03:17 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:03:18 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:03:18 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:03:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:03:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:03:43 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:03:43 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:04:33 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:04:33 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:04:34 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:04:34 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:05:11 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:05:11 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:05:12 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Jun-2022 02:05:12 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Jun-2022 02:09:28 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[15-Jun-2022 02:11:50 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[15-Jun-2022 02:12:37 UTC] PHP Warning:  Undefined array key "data" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[15-Jun-2022 02:18:48 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[21-Jul-2022 08:20:26 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[22-Jul-2022 01:30:35 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[22-Jul-2022 01:30:35 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[22-Jul-2022 01:30:36 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[22-Jul-2022 01:30:36 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:23:25 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:23:25 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:23:26 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:23:26 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:23:35 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:23:35 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:23:36 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:23:36 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:23:50 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:23:50 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:23:51 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:23:51 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:43:25 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:43:25 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:43:26 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:43:26 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:43:54 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:43:54 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:43:58 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:43:58 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Aug-2022 01:44:03 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Aug-2022 01:44:03 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Aug-2022 00:11:27 UTC] Galat basis data WordPress Commands out of sync; you can't run this command now untuk kueri SELECT umeta_id FROM wp_usermeta WHERE meta_key = 'wp_yoast_notifications' AND user_id = 1 yang dibuat oleh shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast_Notification_Center->update_storage, Yoast_Notification_Center->remove_storage, delete_user_option, delete_user_meta, delete_metadata
+[26-Aug-2022 02:55:43 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Aug-2022 02:55:43 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Aug-2022 02:55:43 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Aug-2022 02:55:43 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Aug-2022 02:55:54 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Aug-2022 02:55:54 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Aug-2022 02:55:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Aug-2022 02:55:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Aug-2022 02:55:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Aug-2022 02:55:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Aug-2022 02:55:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Aug-2022 02:55:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[31-Aug-2022 04:35:30 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[31-Aug-2022 04:35:30 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[31-Aug-2022 04:35:31 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[31-Aug-2022 04:35:31 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[31-Aug-2022 04:35:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[31-Aug-2022 04:35:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[31-Aug-2022 04:35:43 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[31-Aug-2022 04:35:43 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Sep-2022 01:50:13 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Sep-2022 01:50:13 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[03-Sep-2022 01:50:14 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[03-Sep-2022 01:50:14 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 01:47:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 01:47:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 01:47:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 01:47:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 01:48:02 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 01:48:02 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 01:48:03 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 01:48:03 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 02:48:36 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[07-Sep-2022 02:48:36 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[07-Sep-2022 02:48:36 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[07-Sep-2022 02:48:36 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[07-Sep-2022 02:48:36 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[07-Sep-2022 02:48:36 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[07-Sep-2022 02:49:26 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 02:49:26 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 02:49:27 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 02:49:27 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 02:49:27 UTC] Galat basis data WordPress Commands out of sync; you can't run this command now untuk kueri SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC yang dibuat oleh wfShutdownRegistry->handleShutdown, wfShutdownFunction->invoke, wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[07-Sep-2022 02:49:27 UTC] Galat basis data WordPress Commands out of sync; you can't run this command now untuk kueri SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC yang dibuat oleh wfShutdownRegistry->handleShutdown, wfShutdownFunction->invoke, wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[07-Sep-2022 02:49:27 UTC] Galat basis data WordPress Commands out of sync; you can't run this command now untuk kueri SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC yang dibuat oleh wfShutdownRegistry->handleShutdown, wfShutdownFunction->invoke, wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[07-Sep-2022 02:49:27 UTC] Galat basis data WordPress Commands out of sync; you can't run this command now untuk kueri SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC yang dibuat oleh wfShutdownRegistry->handleShutdown, wfShutdownFunction->invoke, wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[07-Sep-2022 02:49:41 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 02:49:41 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Sep-2022 02:49:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Sep-2022 02:49:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Sep-2022 04:04:22 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Sep-2022 04:04:22 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Sep-2022 04:04:24 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Sep-2022 04:04:24 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Sep-2022 04:04:35 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Sep-2022 04:04:35 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[10-Sep-2022 04:04:38 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[10-Sep-2022 04:04:38 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[14-Sep-2022 01:36:53 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[14-Sep-2022 01:36:53 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[14-Sep-2022 01:36:54 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[14-Sep-2022 01:36:54 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[14-Sep-2022 01:37:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[14-Sep-2022 01:37:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[14-Sep-2022 01:37:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[14-Sep-2022 01:37:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[17-Sep-2022 01:46:31 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[17-Sep-2022 01:46:31 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[17-Sep-2022 01:46:32 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[17-Sep-2022 01:46:32 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[17-Sep-2022 03:17:12 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[17-Sep-2022 03:17:12 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[17-Sep-2022 03:17:13 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[17-Sep-2022 03:17:13 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[17-Sep-2022 03:17:19 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[17-Sep-2022 03:17:19 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[17-Sep-2022 03:17:20 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[17-Sep-2022 03:17:20 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[21-Sep-2022 02:44:44 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[21-Sep-2022 02:44:44 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[21-Sep-2022 02:44:45 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[21-Sep-2022 02:44:45 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[21-Sep-2022 02:44:48 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[21-Sep-2022 02:44:48 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[21-Sep-2022 02:44:49 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[21-Sep-2022 02:44:49 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[24-Sep-2022 02:40:17 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[24-Sep-2022 02:40:17 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[24-Sep-2022 02:40:18 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[24-Sep-2022 02:40:18 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[24-Sep-2022 02:42:04 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[24-Sep-2022 02:42:04 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[24-Sep-2022 02:42:04 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[24-Sep-2022 02:42:04 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[28-Sep-2022 02:07:59 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[28-Sep-2022 02:07:59 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[28-Sep-2022 02:08:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[28-Sep-2022 02:08:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[28-Sep-2022 02:08:15 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[28-Sep-2022 02:08:15 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[28-Sep-2022 02:08:16 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[28-Sep-2022 02:08:16 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[01-Oct-2022 02:30:26 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[01-Oct-2022 02:30:26 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[01-Oct-2022 02:30:27 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[01-Oct-2022 02:30:27 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[01-Oct-2022 02:30:39 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[01-Oct-2022 02:30:39 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[01-Oct-2022 02:30:40 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[01-Oct-2022 02:30:40 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[05-Oct-2022 02:10:04 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[05-Oct-2022 02:10:04 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[05-Oct-2022 02:10:05 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[05-Oct-2022 02:10:05 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[05-Oct-2022 02:10:11 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[05-Oct-2022 02:10:11 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[05-Oct-2022 02:10:12 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[05-Oct-2022 02:10:12 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[05-Oct-2022 02:14:50 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[05-Oct-2022 02:14:50 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[05-Oct-2022 02:14:50 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[05-Oct-2022 02:14:50 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[05-Oct-2022 02:14:50 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[05-Oct-2022 02:14:50 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[07-Oct-2022 02:29:13 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Oct-2022 02:29:13 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Oct-2022 02:29:14 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Oct-2022 02:29:14 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Oct-2022 02:29:39 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Oct-2022 02:29:39 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Oct-2022 02:29:40 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[07-Oct-2022 02:29:40 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[07-Oct-2022 02:38:50 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[07-Oct-2022 02:38:50 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[07-Oct-2022 02:38:50 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[07-Oct-2022 02:38:50 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[07-Oct-2022 02:38:50 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[07-Oct-2022 02:38:50 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[12-Oct-2022 02:48:53 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[12-Oct-2022 02:48:53 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[12-Oct-2022 02:48:53 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[12-Oct-2022 02:48:53 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[12-Oct-2022 02:49:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[12-Oct-2022 02:49:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[12-Oct-2022 02:49:01 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[12-Oct-2022 02:49:01 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[12-Oct-2022 02:53:18 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[12-Oct-2022 02:53:18 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[12-Oct-2022 02:53:18 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[12-Oct-2022 02:53:18 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[12-Oct-2022 02:53:18 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[12-Oct-2022 02:53:18 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[15-Oct-2022 02:38:56 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[15-Oct-2022 02:38:56 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[15-Oct-2022 02:38:56 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[15-Oct-2022 02:38:56 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[15-Oct-2022 02:38:56 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[15-Oct-2022 02:38:56 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[15-Oct-2022 02:40:56 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Oct-2022 02:40:56 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Oct-2022 02:40:57 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Oct-2022 02:40:57 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Oct-2022 02:41:27 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Oct-2022 02:41:27 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[15-Oct-2022 02:41:27 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[15-Oct-2022 02:41:27 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 04:45:07 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[19-Oct-2022 04:45:07 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 04:45:08 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[19-Oct-2022 04:45:08 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 06:12:33 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[19-Oct-2022 06:12:33 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 06:12:33 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[19-Oct-2022 06:12:33 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 06:12:50 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[19-Oct-2022 06:12:50 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 06:12:51 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[19-Oct-2022 06:12:51 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[19-Oct-2022 06:16:43 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[19-Oct-2022 06:16:43 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[19-Oct-2022 06:16:43 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[19-Oct-2022 06:16:43 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[19-Oct-2022 06:16:43 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[19-Oct-2022 06:16:43 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[22-Oct-2022 02:07:36 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[22-Oct-2022 02:07:36 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[22-Oct-2022 02:07:37 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[22-Oct-2022 02:07:37 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[22-Oct-2022 02:07:41 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[22-Oct-2022 02:07:41 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[22-Oct-2022 02:07:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[22-Oct-2022 02:07:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[22-Oct-2022 02:14:31 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[22-Oct-2022 02:14:31 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[22-Oct-2022 02:14:31 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[22-Oct-2022 02:14:31 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[22-Oct-2022 02:14:31 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[22-Oct-2022 02:14:31 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[26-Oct-2022 04:41:59 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 04:41:59 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 04:42:00 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 04:42:00 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 04:42:08 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 04:42:08 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 04:42:09 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 04:42:09 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 04:47:52 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[26-Oct-2022 04:47:52 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[26-Oct-2022 04:47:52 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[26-Oct-2022 04:47:52 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[26-Oct-2022 04:47:52 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[26-Oct-2022 04:47:52 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[26-Oct-2022 06:36:24 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 06:36:24 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 06:36:25 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 06:36:25 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 06:36:42 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 06:36:42 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[26-Oct-2022 06:36:43 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[26-Oct-2022 06:36:43 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[29-Oct-2022 02:26:45 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[29-Oct-2022 02:26:45 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[29-Oct-2022 02:26:45 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[29-Oct-2022 02:26:45 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[29-Oct-2022 02:26:53 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[29-Oct-2022 02:26:53 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[29-Oct-2022 02:26:53 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[29-Oct-2022 02:26:53 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[29-Oct-2022 02:33:33 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 159
+[29-Oct-2022 02:33:33 UTC] PHP Warning:  Undefined array key "tested" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 160
+[29-Oct-2022 02:33:33 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 162
+[29-Oct-2022 02:33:33 UTC] PHP Warning:  Undefined array key "last_updated" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 163
+[29-Oct-2022 02:33:33 UTC] PHP Warning:  Undefined array key "download_link" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 164
+[29-Oct-2022 02:33:33 UTC] PHP Warning:  Undefined array key "sections" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 171
+[08-Nov-2022 04:28:46 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:28:46 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:28:47 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:28:47 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:28:57 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:28:57 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:28:57 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:28:57 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:55 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:31:55 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:56 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:31:56 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:57 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:31:57 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:58 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:31:58 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:58 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:31:58 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:58 UTC] PHP Warning:  Undefined array key "requires" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 69
+[08-Nov-2022 04:31:58 UTC] PHP Warning:  Undefined array key "new_version" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-content/plugins/elementor-pro/license/updater.php on line 84
+[08-Nov-2022 04:31:58 UTC] setting sglobal
+[08-Nov-2022 04:38:05 UTC] ***ERROR*** Zip process getting killed due to limited server resources.  **RECOMMENDATION: Click to switch Archive Engine DupArchive.
+[08-Nov-2022 07:06:53 UTC] ***ERROR*** Couldn't remove pending cancel transient
+[09-Nov-2022 00:54:28 UTC] ***ERROR*** Zip process getting killed due to limited server resources.  **RECOMMENDATION: Click to switch Archive Engine DupArchive.
+[10-Nov-2022 08:20:55 UTC] ***ERROR*** Zip process getting killed due to limited server resources.  **RECOMMENDATION: Click to switch Archive Engine DupArchive.

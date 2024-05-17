@@ -1,0 +1,36 @@
+[16-Sep-2022 19:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[20-Sep-2022 10:31:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[20-Sep-2022 14:10:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Sep-2022 18:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[29-Sep-2022 17:15:09 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[27-Feb-2024 02:32:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[13-Mar-2024 08:34:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[15-Mar-2024 16:13:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[16-Mar-2024 15:06:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/widgets/class-wp-widget-block.php on line 17

@@ -1,0 +1,36 @@
+[16-Sep-2022 19:19:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php on line 9
+[20-Sep-2022 10:31:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php on line 9
+[20-Sep-2022 14:10:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php on line 9
+[28-Sep-2022 18:53:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php on line 9
+[29-Sep-2022 17:15:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ventions/wordpress-1168435-4088426.cloudwaysapps.com/wp-includes/blocks/index.php on line 9
+[27-Feb-2024 02:31:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php on line 8
+[13-Mar-2024 08:34:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php on line 8
+[15-Mar-2024 16:13:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php on line 8
+[16-Mar-2024 15:06:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/cucisofapontianak.com/wp-includes/blocks/index.php on line 8
